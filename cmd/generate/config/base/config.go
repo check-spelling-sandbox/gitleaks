@@ -54,7 +54,7 @@ func CreateGlobalConfig() config.Config {
 
 				// ----------- Miscellaneous -----------
 				// File paths
-				regexp.MustCompile(`^/Users/(?i)[a-z0-9]+/[\w .-/]+$`),              // MacOS
+				regexp.MustCompile(`^/Users/(?i)[a-z0-9]+/[\w .-/]+$`),              // macOS
 				regexp.MustCompile(`^/(?:bin|etc|home|opt|tmp|usr|var)/[\w ./-]+$`), // Linux
 				// 11980 Jps -Dapplication.home=D:\develop_tools\jdk\jdk1.8.0_131 -Xms8m
 				//regexp.MustCompile(`^$`), // Windows

@@ -64,7 +64,7 @@ var allowlistRegexTests = map[string]struct {
 	},
 	"miscellaneous - file paths": {
 		invalid: []string{
-			// MacOS
+			// macOS
 			`/Users/james/Projects/SwiftCode/build/Release`,
 			// Linux
 			`/tmp/screen-exchange`,

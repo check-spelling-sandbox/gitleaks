@@ -67,7 +67,7 @@ Gitleaks can be installed using Homebrew, Docker, or Go. Gitleaks is also availa
 ### Installing
 
 ```bash
-# MacOS
+# macOS
 brew install gitleaks
 
 # Docker (DockerHub)
