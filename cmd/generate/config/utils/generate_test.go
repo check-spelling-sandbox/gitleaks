@@ -22,7 +22,7 @@ func TestGenerateSemiGenericRegex(t *testing.T) {
 			invalidStrings:    []string{"api_key=XXX", "api_key=xXx"},
 		},
 		{
-			name:              "secret is case insensitive, if isCaseInsensitive is true",
+			name:              "secret is case-insensitive, if isCaseInsensitive is true",
 			identifiers:       []string{"api_key"},
 			secretRegex:       `[a-z]{3}`,
 			isCaseInsensitive: []bool{true},
@@ -30,7 +30,7 @@ func TestGenerateSemiGenericRegex(t *testing.T) {
 			invalidStrings:    []string{"api_key=x!x"},
 		},
 		{
-			name:              "identifier is case insensitive, regardless of isCaseInsensitive",
+			name:              "identifier is case-insensitive, regardless of isCaseInsensitive",
 			identifiers:       []string{"api_key"},
 			secretRegex:       `[a-z]{3}`,
 			isCaseInsensitive: []bool{true, false},
@@ -178,7 +178,7 @@ func TestGenerateUniqueTokenRegex(t *testing.T) {
 			invalidStrings:    []string{"ABC", "Abc"},
 		},
 		{
-			name:              "case insensitive secret",
+			name:              "case-insensitive secret",
 			secretRegex:       `[a-c]{3}`,
 			isCaseInsensitive: true,
 			validStrings:      []string{"abc", "ABC", "Abc"},

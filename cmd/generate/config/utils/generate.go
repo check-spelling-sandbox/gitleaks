@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	// case insensitive prefix
+	// case-insensitive prefix
 	caseInsensitive = `(?i)`
 
 	// identifier prefix (just an ignore group)
