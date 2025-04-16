@@ -89,7 +89,7 @@ func getResults(findings []Finding) []Results {
 			},
 			RuleId:    f.RuleID,
 			Locations: getLocation(f),
-			// This information goes in partial fingerprings until revision
+			// This information goes in partial fingerprints until revision
 			// data can be added somewhere else
 			PartialFingerPrints: PartialFingerPrints{
 				CommitSha:     f.Commit,
