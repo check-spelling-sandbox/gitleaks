@@ -2,8 +2,9 @@ package config
 
 import (
 	"fmt"
-	"github.com/google/go-cmp/cmp/cmpopts"
 	"testing"
+
+	"github.com/google/go-cmp/cmp/cmpopts"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/spf13/viper"
@@ -422,7 +423,7 @@ func TestExtendedRuleKeywordsAreDowncase(t *testing.T) {
 	}{
 		{
 			name:             "Extend base rule that includes AWS keyword with new attribute",
-			cfgName:          "extend_base_rule_including_keysword_with_attribute",
+			cfgName:          "extend_base_rule_including_keyword_with_attribute",
 			expectedKeywords: "aws",
 		},
 		{
