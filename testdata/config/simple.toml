@@ -125,7 +125,7 @@ title = "gitleaks config"
     tags = ["key", "Paypal"]
 
 [[rules]]
-    id = "piacatic"
+    id = "picatic"
     description = "Picatic API key"
     regex = '''sk_live_[0-9a-z]{32}'''
     tags = ["key", "Picatic"]
