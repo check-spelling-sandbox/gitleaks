@@ -25,7 +25,7 @@ func init() {
 }
 
 // EncodedSegment represents a portion of text that is encoded in some way.
-// `decode` supports recusive decoding and can result in "segment trees".
+// `decode` supports recursive decoding and can result in "segment trees".
 // There can be multiple segments in the original text, so each can be thought
 // of as its own tree with the root being the original segment.
 type EncodedSegment struct {
