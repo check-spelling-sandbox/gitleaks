@@ -44,25 +44,25 @@ title = "gitleaks config"
     tags = ["client", "Twitter"]
 
 [[rules]]
-    description = "Github Personal Access Token"
+    description = "GitHub Personal Access Token"
     id = "github-pat"
     regex = '''ghp_[0-9a-zA-Z]{36}'''
-    tags = ["key", "Github"]
+    tags = ["key", "GitHub"]
 [[rules]]
-    description = "Github OAuth Access Token"
+    description = "GitHub OAuth Access Token"
     id = "github-oauth"
     regex = '''gho_[0-9a-zA-Z]{36}'''
-    tags = ["key", "Github"]
+    tags = ["key", "GitHub"]
 [[rules]]
     id = "github-app"
-    description = "Github App Token"
+    description = "GitHub App Token"
     regex = '''(ghu|ghs)_[0-9a-zA-Z]{36}'''
-    tags = ["key", "Github"]
+    tags = ["key", "GitHub"]
 [[rules]]
     id = "github-refresh"
-    description = "Github Refresh Token"
+    description = "GitHub Refresh Token"
     regex = '''ghr_[0-9a-zA-Z]{76}'''
-    tags = ["key", "Github"]
+    tags = ["key", "GitHub"]
 
 [[rules]]
     id = "linkedin-client"
