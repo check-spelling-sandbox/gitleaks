@@ -137,7 +137,7 @@ func CurlHeaderAuth() *config.Rule {
 #  -F from='Excited User <mailgun@sandbox7dbc123bccd4314c0aae8b23599d35f5b6.mailgun.org>' \
 #  -F to='joe@example.com' \
 #  -F subject='Hello' \
-#  -F text='Testing some Mailgun awesomness!'`, // different line, single quotes
+#  -F text='Testing some Mailgun awesomeness!'`, // different line, single quotes
 
 		// Bearer auth
 		`# curl -X GET "http://localhost:3000/api/cron/status" -H "Authorization: Bearer cfcabd11c7ed9a41b1a3e063c32d5114"`, // same line, double quotes
